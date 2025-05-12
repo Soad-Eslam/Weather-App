@@ -1,0 +1,105 @@
+.navbar {
+  background-color: #1e202b;
+  color: white;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+.nav-item .nav-link:hover {
+  border: solid 1px #009ad8;
+  color: #009ad8 !important;
+  border-radius: 40px;
+}
+body,
+footer {
+  background-color: #262936;
+}
+.main {
+  height: 100vh;
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-color: #1e202b;
+}
+.input-group .form-input {
+  width: 90%;
+  outline: none;
+  border: none;
+  padding: 20px;
+  border-radius: 30px !important;
+  background-color: #1e202b;
+  color: white !important;
+}
+.input-group button {
+  border-radius: 30px;
+  top: 10px;
+  right: 120px;
+}
+.btn {
+  padding: 10px 30px !important;
+  border-radius: 500px !important;
+}
+/*-- forecast --*/
+.forecast {
+  background-color: #323544;
+  color: white;
+  height: 350px;
+  margin-top: 100px;
+  font-weight: 400;
+  border-radius: 30px;
+}
+.forecast-header {
+  background-color: #2d303d;
+  padding: 10px;
+  border-radius: 30px;
+}
+.tommorow {
+  background-color: #262936;
+}
+.forecast .forecast-content {
+  padding: 30px;
+  padding-left: 15px;
+}
+.forecast .forecast-content .num {
+  font-size: 30px;
+  font-weight: 500;
+}
+.today .forecast-content .num {
+  font-size: 70px;
+  font-weight: 500;
+}
+.custom {
+  color: #009ad8;
+  margin-bottom: 20px;
+}
+/*-- footer -- */
+.footer-btn {
+  right: -20px;
+}
+.colophon {
+  color: white;
+  font-size: 15px;
+}
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+.social-links a {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #1e202b;
+  transition: all 1s;
+}
+.social-links a:hover {
+  color: white;
+  background-color: #009ad8;
+}
+footer {
+  padding-top: 20px;
+}

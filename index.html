@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <div class="navbar py-5 d-flex justify-content-between">
+      <div class="container">
+        <a href="" class="d-flex justify-content-between align-content-center">
+          <div><img src="images/logo.png" alt="" /></div>
+          <div class="ms-4 mb-2 fs-6">
+            <h1 class="fs-6 mb-0">Weather</h1>
+            <small>tagline goes here</small>
+          </div>
+        </a>
+        <div class="navlinks">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="container pt-5">
+        <!-- Search Group -->
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            id="cityInput"
+            class="form-input position-relative"
+            placeholder="Find Your Location..."
+          />
+          <button id="searchBtn" class="btn btn-primary position-absolute">
+            Find
+          </button>
+        </div>
+        <!-- Weather Container -->
+        <div class="container">
+          <div class="forecast-container d-flex gap-2" id="weatherResult"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="container ps-3">
+        <div class="row">
+          <div class="col-md-8 ps-0">
+            <form action="">
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-input position-relative"
+                  placeholder="Enter your email to subscribe..."
+                />
+                <button class="btn btn-primary position-absolute footer-btn">
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-3 col-md-offset-1">
+            <div class="social-links">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+        <p class="colophon">
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+    <!-- JS Files -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
