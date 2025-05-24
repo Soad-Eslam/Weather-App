@@ -1,7 +1,4 @@
 @media screen and (max-width: 800px) {
-  .main {
-    height: 200vh;
-  }
   .forecast-container {
     flex-direction: column;
     flex-wrap: wrap;
@@ -14,18 +11,22 @@
   .after {
     margin-top: 20px !important;
   }
-    .title {
+  .title {
     justify-content: center;
   }
   .title button {
     right: 12%;
     width: 100px;
   }
-   .input-group .footer{
+  .title .footer {
+  right: 8%;
+  }
+  .input-group .footer {
     width: 430px;
   }
   .footer-btn {
     top: 10px !important;
+    width: 130px !important;
     text-align: left;
     font-size: 15px;
   }
