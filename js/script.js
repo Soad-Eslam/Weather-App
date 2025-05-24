@@ -126,13 +126,17 @@ async function getWeather(city) {
 }
 
 input.addEventListener("input", function () {
-  const city = document.getElementById("cityInput").value;
-  getWeather(city);
+  const city = input.value.trim();
+  if (city.length > 3) {
+    getWeather(city);
+  }
 });
 
 btn.addEventListener("click", function () {
   const city = document.getElementById("cityInput").value;
-  getWeather(city);
+   if (city.length > 3) {
+    getWeather(city);
+  }
 });
 
 getWeather("cairo");
