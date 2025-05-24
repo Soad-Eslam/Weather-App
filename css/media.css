@@ -23,6 +23,7 @@
   }
   .footer-btn {
     top: 10px !important;
+    left: 50%;
     width: 130px !important;
     text-align: left;
     font-size: 15px;
