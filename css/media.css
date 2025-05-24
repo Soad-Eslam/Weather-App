@@ -21,7 +21,8 @@
     right: 12%;
     width: 100px;
   }
-  footer .input-group {
+   .input-group .footer{
+    width: 380px;
   }
   .footer-btn {
     top: 10px !important;
