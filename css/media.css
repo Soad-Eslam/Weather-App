@@ -1,6 +1,6 @@
 @media screen and (max-width: 800px) {
   .main {
-    height: 250vh;
+    height: 220vh;
   }
   .forecast-container {
     flex-direction: column;
@@ -14,9 +14,12 @@
   .after {
     margin-top: 20px !important;
   }
+   .input-group{
+    justify-content: center;
+   }
   .input-group button {
-    left: 300px;
-    width: 100px;
+    right: 12%;
+    width: 90px;
   }
   footer .input-group {
     width: 480px;
