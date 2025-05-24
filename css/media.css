@@ -14,12 +14,12 @@
   .after {
     margin-top: 20px !important;
   }
-   .input-group{
+    .title {
     justify-content: center;
-   }
-  .input-group button {
+  }
+  .title button {
     right: 12%;
-    width: 90px;
+    width: 100px;
   }
   footer .input-group {
     width: 480px;
