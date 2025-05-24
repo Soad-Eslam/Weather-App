@@ -1,6 +1,6 @@
 @media screen and (max-width: 800px) {
   .main {
-    height: 220vh;
+    height: 200vh;
   }
   .forecast-container {
     flex-direction: column;
