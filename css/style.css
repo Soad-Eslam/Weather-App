@@ -22,7 +22,7 @@ footer {
   background-color: #1e202b;
 }
 .input-group .form-input {
-  width: 90%;
+  width: 80%;
   outline: none;
   border: none;
   padding: 20px;
@@ -32,8 +32,8 @@ footer {
 }
 .input-group button {
   border-radius: 30px;
-  top: 10px;
-  right: 120px;
+  top: 10%;
+  right: 25%;
 }
 .btn {
   padding: 10px 30px !important;
