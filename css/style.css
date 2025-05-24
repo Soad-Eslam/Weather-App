@@ -16,7 +16,6 @@ footer {
   background-color: #262936;
 }
 .main {
-  height: 100vh;
   background-image: url(../images/banner.png);
   background-repeat: no-repeat;
   background-color: #1e202b;
@@ -101,5 +100,6 @@ footer {
   background-color: #009ad8;
 }
 footer {
+  margin-top: 100px;
   padding-top: 20px;
 }
